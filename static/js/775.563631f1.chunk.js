@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmedicine_delivery_app_front=self.webpackChunkmedicine_delivery_app_front||[]).push([[775],{775:(e,n,i)=>{i.r(n),i.d(n,{default:()=>p});var r=i(579);const p=function(){return(0,r.jsx)("div",{children:"Shopping Cart"})}}}]);
+//# sourceMappingURL=775.563631f1.chunk.js.map

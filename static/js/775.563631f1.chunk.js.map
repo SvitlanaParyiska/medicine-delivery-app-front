@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/775.563631f1.chunk.js","mappings":"mLAIA,QAJA,WACE,OAAOA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,iBACd,C","sources":["pages/ShoppingCartPage/index.jsx"],"sourcesContent":["function ShoppingCartPage() {\n  return <div>Shopping Cart</div>;\n}\n\nexport default ShoppingCartPage;\n"],"names":["_jsx","children"],"sourceRoot":""}

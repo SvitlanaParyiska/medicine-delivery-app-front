@@ -1,5 +1,13 @@
+import Aside from '../../components/Aside';
+import DrugsList from '../../components/DrugsList';
+
 function HomePage() {
-  return <div>Home</div>;
+  return (
+    <main>
+      <Aside />
+      <DrugsList />
+    </main>
+  );
 }
 
 export default HomePage;

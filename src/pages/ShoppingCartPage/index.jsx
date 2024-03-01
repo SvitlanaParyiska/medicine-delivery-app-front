@@ -1,5 +1,9 @@
 function ShoppingCartPage() {
-  return <div>Shopping Cart</div>;
+  return (
+    <main>
+      <div>Shopping Cart</div>
+    </main>
+  );
 }
 
 export default ShoppingCartPage;

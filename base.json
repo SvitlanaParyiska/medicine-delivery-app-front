@@ -1,0 +1,137 @@
+[
+  {
+    "ShopName": "Drugs 24",
+    "Drugs": [
+      {
+        "DrugName": "Dolo",
+        "Price": "88",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Paracetamol",
+        "Price": "105",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Vitamin C",
+        "Price": "65",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Vitamin D",
+        "Price": "105",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Lorazepam",
+        "Price": "110",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Ranitidin",
+        "Price": "55",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Bipanten",
+        "Price": "180",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Renni",
+        "Price": "160",
+        "imgURL": ""
+      }
+    ]
+  },
+  {
+    "ShopName": "Pharmacy",
+    "Drugs": [
+      {
+        "DrugName": "Dolo",
+        "Price": "90",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Paracetamol",
+        "Price": "110",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Vitamin C",
+        "Price": "80",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Vitamin D",
+        "Price": "130",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Lorazepam",
+        "Price": "150",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Ranitidin",
+        "Price": "70",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Bipanten",
+        "Price": "200",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Renni",
+        "Price": "170",
+        "imgURL": ""
+      }
+    ]
+  },
+  {
+    "ShopName": "911",
+    "Drugs": [
+      {
+        "DrugName": "Dolo",
+        "Price": "90",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Paracetamol",
+        "Price": "110",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Vitamin C",
+        "Price": "80",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Vitamin D",
+        "Price": "130",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Lorazepam",
+        "Price": "150",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Ranitidin",
+        "Price": "70",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Bipanten",
+        "Price": "200",
+        "imgURL": ""
+      },
+      {
+        "DrugName": "Renni",
+        "Price": "170",
+        "imgURL": ""
+      }
+    ]
+  }
+]

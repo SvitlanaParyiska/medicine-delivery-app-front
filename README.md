@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Medicine Delivery
 
 [Link to site](https://svitlanaparyiska.github.io/medicine-delivery-app-front/ 'Site Medicine Delivery')
 

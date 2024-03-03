@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/medicine-delivery-app-front/static/css/main.0a6e13ad.css",
-    "main.js": "/medicine-delivery-app-front/static/js/main.47cacbd5.js",
+    "main.js": "/medicine-delivery-app-front/static/js/main.57ff9046.js",
     "static/js/242.3b5e5d76.chunk.js": "/medicine-delivery-app-front/static/js/242.3b5e5d76.chunk.js",
-    "static/js/570.91f9e076.chunk.js": "/medicine-delivery-app-front/static/js/570.91f9e076.chunk.js",
+    "static/js/570.62c3a32f.chunk.js": "/medicine-delivery-app-front/static/js/570.62c3a32f.chunk.js",
     "static/js/393.cf191a36.chunk.js": "/medicine-delivery-app-front/static/js/393.cf191a36.chunk.js",
     "static/js/73.3d8a92a9.chunk.js": "/medicine-delivery-app-front/static/js/73.3d8a92a9.chunk.js",
     "static/js/489.92c55406.chunk.js": "/medicine-delivery-app-front/static/js/489.92c55406.chunk.js",
@@ -13,15 +13,15 @@
     "static/media/sprite.svg": "/medicine-delivery-app-front/static/media/sprite.823a24ac3c3762b72253f221e0d1c072.svg",
     "index.html": "/medicine-delivery-app-front/index.html",
     "main.0a6e13ad.css.map": "/medicine-delivery-app-front/static/css/main.0a6e13ad.css.map",
-    "main.47cacbd5.js.map": "/medicine-delivery-app-front/static/js/main.47cacbd5.js.map",
+    "main.57ff9046.js.map": "/medicine-delivery-app-front/static/js/main.57ff9046.js.map",
     "242.3b5e5d76.chunk.js.map": "/medicine-delivery-app-front/static/js/242.3b5e5d76.chunk.js.map",
-    "570.91f9e076.chunk.js.map": "/medicine-delivery-app-front/static/js/570.91f9e076.chunk.js.map",
+    "570.62c3a32f.chunk.js.map": "/medicine-delivery-app-front/static/js/570.62c3a32f.chunk.js.map",
     "393.cf191a36.chunk.js.map": "/medicine-delivery-app-front/static/js/393.cf191a36.chunk.js.map",
     "73.3d8a92a9.chunk.js.map": "/medicine-delivery-app-front/static/js/73.3d8a92a9.chunk.js.map",
     "489.92c55406.chunk.js.map": "/medicine-delivery-app-front/static/js/489.92c55406.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a6e13ad.css",
-    "static/js/main.47cacbd5.js"
+    "static/js/main.57ff9046.js"
   ]
 }

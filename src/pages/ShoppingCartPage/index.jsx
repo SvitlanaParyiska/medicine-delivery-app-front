@@ -1,7 +1,11 @@
+import CartForm from 'components/CartForm';
+
 function ShoppingCartPage() {
   return (
     <main>
-      <div>Shopping Cart</div>
+      <div className="container">
+        <CartForm />
+      </div>
     </main>
   );
 }

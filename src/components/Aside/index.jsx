@@ -1,11 +1,12 @@
 import ShopsList from '../../components/ShopsList';
+import { AsideBox } from './Aside.styled';
 
 function Aside() {
   return (
-    <div>
-      <h2>Shops</h2>
+    <AsideBox>
+      <h2>Shops:</h2>
       <ShopsList />
-    </div>
+    </AsideBox>
   );
 }
 

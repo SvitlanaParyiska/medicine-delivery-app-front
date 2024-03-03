@@ -23,6 +23,47 @@ const handleRejected = (state, action) => {
 const shopSlice = createSlice({
   name: 'shop',
   initialState: shopInitialState,
+  reducers: {
+    upTotal(state, { payload }) {
+      const index = state.cartList.findIndex(
+        item => item.drugName === payload.drugName
+      );
+      if (index === -1) {
+        state.cartList.push({
+          imgURL: payload.imgURL,
+          drugName: payload.drugName,
+          price: Number(payload.price),
+          total: 1,
+        });
+      } else {
+        state.cartList[index].total += 1;
+      }
+    },
+    downTotal(state, { payload }) {
+      const index = state.cartList.findIndex(
+        item => item.drugName === payload.drugName
+      );
+      if (index !== -1 && state.cartList[index].total > 0) {
+        state.cartList[index].total -= 1;
+        if (state.cartList[index].total === 0) {
+          state.cartList.splice(index, 1);
+        }
+      }
+    },
+    clearCart(state, _) {
+      state.cartList = [];
+    },
+
+    deleteFavorite(state, { payload }) {
+      const index = state.favoritesDrugs.findIndex(
+        item => item._id === payload
+      );
+      state.favoritesDrugs.splice(index, 1);
+    },
+    addFavorite(state, { payload }) {
+      state.favoritesDrugs.push({ ...payload });
+    },
+  },
   extraReducers: builder => {
     builder
       .addCase(getShopsList.pending, handlePending)
@@ -36,7 +77,7 @@ const shopSlice = createSlice({
       .addCase(getDrugs.fulfilled, (state, { payload }) => {
         state.isLoading = false;
         state.error = null;
-        state.drugsByShop = payload;
+        state.drugsByShop = payload[0].drugs;
       })
       .addCase(getDrugs.rejected, handleRejected)
       .addCase(addCart.pending, handlePending)
@@ -50,4 +91,6 @@ const shopSlice = createSlice({
   },
 });
 
+export const { upTotal, downTotal, clearCart, deleteFavorite, addFavorite } =
+  shopSlice.actions;
 export const shopReducer = shopSlice.reducer;

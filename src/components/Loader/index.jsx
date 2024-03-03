@@ -1,5 +1,5 @@
-import React from "react";
-import { ThreeCircles } from "react-loader-spinner";
+import React from 'react';
+import { ThreeCircles } from 'react-loader-spinner';
 
 export const Loader = () => {
   return (
@@ -7,19 +7,19 @@ export const Loader = () => {
       visible={true}
       height="100"
       width="100"
-      color="#27408b"
+      color="#f34a4a"
       ariaLabel="three-circles-loading"
       wrapperStyle={{
-        display: "flex",
-        position: "fixed",
-        zIndex: "9999",
-        top: "0",
-        left: "0",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-        width: "100vw",
-        backgroundColor: "rgba(0, 0, 0, 0.3)",
+        display: 'flex',
+        position: 'fixed',
+        zIndex: '9999',
+        top: '0',
+        left: '0',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh',
+        width: '100vw',
+        backgroundColor: 'rgba(0, 0, 0, 0.3)',
       }}
     />
   );

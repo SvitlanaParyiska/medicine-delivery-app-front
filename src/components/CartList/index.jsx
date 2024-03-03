@@ -10,9 +10,6 @@ function CartList() {
 
   return (
     <CartListBox>
-      <div>
-        <h2>Car brand</h2>
-      </div>
       <ul>
         {listOfCart.length > 0 ? (
           listOfCart.map(item => <CartItem key={nanoid()} drug={item} />)

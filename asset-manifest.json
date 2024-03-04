@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/medicine-delivery-app-front/static/css/main.8013f027.css",
-    "main.js": "/medicine-delivery-app-front/static/js/main.a96a2600.js",
+    "main.js": "/medicine-delivery-app-front/static/js/main.ff95674a.js",
     "static/js/192.e9456ebc.chunk.js": "/medicine-delivery-app-front/static/js/192.e9456ebc.chunk.js",
-    "static/js/570.d3e688bb.chunk.js": "/medicine-delivery-app-front/static/js/570.d3e688bb.chunk.js",
+    "static/js/570.ceb16cbd.chunk.js": "/medicine-delivery-app-front/static/js/570.ceb16cbd.chunk.js",
     "static/js/393.00207a49.chunk.js": "/medicine-delivery-app-front/static/js/393.00207a49.chunk.js",
     "static/js/73.58e184d9.chunk.js": "/medicine-delivery-app-front/static/js/73.58e184d9.chunk.js",
     "static/js/489.92c55406.chunk.js": "/medicine-delivery-app-front/static/js/489.92c55406.chunk.js",
@@ -14,9 +14,9 @@
     "static/media/sprite.svg": "/medicine-delivery-app-front/static/media/sprite.823a24ac3c3762b72253f221e0d1c072.svg",
     "index.html": "/medicine-delivery-app-front/index.html",
     "main.8013f027.css.map": "/medicine-delivery-app-front/static/css/main.8013f027.css.map",
-    "main.a96a2600.js.map": "/medicine-delivery-app-front/static/js/main.a96a2600.js.map",
+    "main.ff95674a.js.map": "/medicine-delivery-app-front/static/js/main.ff95674a.js.map",
     "192.e9456ebc.chunk.js.map": "/medicine-delivery-app-front/static/js/192.e9456ebc.chunk.js.map",
-    "570.d3e688bb.chunk.js.map": "/medicine-delivery-app-front/static/js/570.d3e688bb.chunk.js.map",
+    "570.ceb16cbd.chunk.js.map": "/medicine-delivery-app-front/static/js/570.ceb16cbd.chunk.js.map",
     "393.00207a49.chunk.js.map": "/medicine-delivery-app-front/static/js/393.00207a49.chunk.js.map",
     "73.58e184d9.chunk.js.map": "/medicine-delivery-app-front/static/js/73.58e184d9.chunk.js.map",
     "489.92c55406.chunk.js.map": "/medicine-delivery-app-front/static/js/489.92c55406.chunk.js.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.8013f027.css",
-    "static/js/main.a96a2600.js"
+    "static/js/main.ff95674a.js"
   ]
 }

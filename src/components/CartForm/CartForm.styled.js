@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 export const FormBoxStyled = styled.div`
-  display: flex;
-  gap: 20px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 20px;
+  }
 `;
 
 export const InputsBoxStyled = styled.div`

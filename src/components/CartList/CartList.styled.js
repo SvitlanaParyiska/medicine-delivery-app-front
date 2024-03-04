@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const CartListBox = styled.div`
-  width: 100%;
   height: 500px;
   overflow: auto;
   padding: 15px;
@@ -14,5 +13,13 @@ export const CartListBox = styled.div`
   &::-webkit-scrollbar-thumb {
     background: var(--color-accent);
     border-radius: 14px;
+  }
+
+  @media screen and (max-width: 767px) {
+    margin-top: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 70%;
   }
 `;

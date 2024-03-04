@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/medicine-delivery-app-front/static/css/main.8013f027.css",
-    "main.js": "/medicine-delivery-app-front/static/js/main.ff95674a.js",
-    "static/js/192.e9456ebc.chunk.js": "/medicine-delivery-app-front/static/js/192.e9456ebc.chunk.js",
-    "static/js/570.ceb16cbd.chunk.js": "/medicine-delivery-app-front/static/js/570.ceb16cbd.chunk.js",
-    "static/js/393.00207a49.chunk.js": "/medicine-delivery-app-front/static/js/393.00207a49.chunk.js",
+    "main.js": "/medicine-delivery-app-front/static/js/main.46b5efd6.js",
+    "static/js/192.3e5250f0.chunk.js": "/medicine-delivery-app-front/static/js/192.3e5250f0.chunk.js",
+    "static/js/570.31a66e1e.chunk.js": "/medicine-delivery-app-front/static/js/570.31a66e1e.chunk.js",
+    "static/js/393.f5044add.chunk.js": "/medicine-delivery-app-front/static/js/393.f5044add.chunk.js",
     "static/js/73.58e184d9.chunk.js": "/medicine-delivery-app-front/static/js/73.58e184d9.chunk.js",
     "static/js/489.92c55406.chunk.js": "/medicine-delivery-app-front/static/js/489.92c55406.chunk.js",
     "static/js/782.360870f9.chunk.js": "/medicine-delivery-app-front/static/js/782.360870f9.chunk.js",
     "static/media/logo.png": "/medicine-delivery-app-front/static/media/logo.f5c4167f2cdcd5ef3830.png",
     "static/media/placeholder2.jpg": "/medicine-delivery-app-front/static/media/placeholder2.0b25db705616b72b0582.jpg",
     "static/media/placeholder.jpg": "/medicine-delivery-app-front/static/media/placeholder.3cf4ba0b320491231b1a.jpg",
-    "static/media/sprite.svg": "/medicine-delivery-app-front/static/media/sprite.823a24ac3c3762b72253f221e0d1c072.svg",
+    "static/media/sprite.svg": "/medicine-delivery-app-front/static/media/sprite.248a927eebecc728abb8aa2b1513c31a.svg",
     "index.html": "/medicine-delivery-app-front/index.html",
     "main.8013f027.css.map": "/medicine-delivery-app-front/static/css/main.8013f027.css.map",
-    "main.ff95674a.js.map": "/medicine-delivery-app-front/static/js/main.ff95674a.js.map",
-    "192.e9456ebc.chunk.js.map": "/medicine-delivery-app-front/static/js/192.e9456ebc.chunk.js.map",
-    "570.ceb16cbd.chunk.js.map": "/medicine-delivery-app-front/static/js/570.ceb16cbd.chunk.js.map",
-    "393.00207a49.chunk.js.map": "/medicine-delivery-app-front/static/js/393.00207a49.chunk.js.map",
+    "main.46b5efd6.js.map": "/medicine-delivery-app-front/static/js/main.46b5efd6.js.map",
+    "192.3e5250f0.chunk.js.map": "/medicine-delivery-app-front/static/js/192.3e5250f0.chunk.js.map",
+    "570.31a66e1e.chunk.js.map": "/medicine-delivery-app-front/static/js/570.31a66e1e.chunk.js.map",
+    "393.f5044add.chunk.js.map": "/medicine-delivery-app-front/static/js/393.f5044add.chunk.js.map",
     "73.58e184d9.chunk.js.map": "/medicine-delivery-app-front/static/js/73.58e184d9.chunk.js.map",
     "489.92c55406.chunk.js.map": "/medicine-delivery-app-front/static/js/489.92c55406.chunk.js.map",
     "782.360870f9.chunk.js.map": "/medicine-delivery-app-front/static/js/782.360870f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8013f027.css",
-    "static/js/main.ff95674a.js"
+    "static/js/main.46b5efd6.js"
   ]
 }

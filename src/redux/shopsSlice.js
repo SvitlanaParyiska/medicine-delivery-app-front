@@ -51,6 +51,14 @@ const shopSlice = createSlice({
         }
       }
     },
+    deleteDrug(state, { payload }) {
+      const index = state.cartList.findIndex(
+        item => item.drugName === payload.drugName
+      );
+      if (index !== -1) {
+        state.cartList.splice(index, 1);
+      }
+    },
     clearCart(state, _) {
       state.cartList = [];
     },
@@ -102,5 +110,6 @@ export const {
   deleteFavorite,
   addFavorite,
   changeFilter,
+  deleteDrug,
 } = shopSlice.actions;
 export const shopReducer = shopSlice.reducer;

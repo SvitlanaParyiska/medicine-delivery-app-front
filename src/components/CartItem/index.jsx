@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { downTotal, upTotal } from '../../redux/shopsSlice';
+import { deleteDrug, downTotal, upTotal } from '../../redux/shopsSlice';
 import defaultPicture from '../../images/placeholder2.jpg';
 import { CartLi, ButtonStyled, SvgFavAdd } from './CartItem.styled';
 import sprite from '../../images/sprite.svg';
@@ -12,6 +12,10 @@ function CartItem({ drug }) {
   }
   function totalChangeDown() {
     dispatch(downTotal(drug));
+  }
+
+  function deleteFromCart() {
+    dispatch(deleteDrug(drug));
   }
 
   return (
@@ -55,6 +59,19 @@ function CartItem({ drug }) {
                     </SvgFavAdd>
                   </ButtonStyled>
                 </div>
+                <button
+                  type="button"
+                  onClick={deleteFromCart}
+                  style={{
+                    border: 'none',
+                    backgroundColor: 'transparent',
+                    marginLeft: 'auto',
+                  }}
+                >
+                  <SvgFavAdd>
+                    <use href={`${sprite}#icon-cart-x`}></use>
+                  </SvgFavAdd>
+                </button>
               </div>
             </div>
           </div>

@@ -18,6 +18,7 @@ export const NavBox = styled.nav`
   display: flex;
   gap: 50px;
   align-items: center;
+  justify-content: space-between;
 `;
 
 export const LinkStyled = styled(NavLink)`
@@ -43,4 +44,24 @@ export const LinkStyled = styled(NavLink)`
 export const Image = styled.img`
   width: 35px;
   height: 30px;
+`;
+
+export const BurgerIcon = styled.svg`
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: #fff;
+  display: block;
+  cursor: pointer;
+  transition: var(--transition);
+
+  &:hover,
+  &:focus {
+    stroke: var(--color-accent);
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 32px;
+    height: 32px;
+  }
 `;

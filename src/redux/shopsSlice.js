@@ -7,6 +7,7 @@ const shopInitialState = {
   cartList: [],
   favoritesDrugs: [],
   cartsHistory: [],
+  filter: 'all',
   isLoading: false,
   error: null,
 };
@@ -53,6 +54,9 @@ const shopSlice = createSlice({
     clearCart(state, _) {
       state.cartList = [];
     },
+    changeFilter(state, { payload }) {
+      state.filter = payload;
+    },
 
     deleteFavorite(state, { payload }) {
       const index = state.favoritesDrugs.findIndex(
@@ -91,6 +95,12 @@ const shopSlice = createSlice({
   },
 });
 
-export const { upTotal, downTotal, clearCart, deleteFavorite, addFavorite } =
-  shopSlice.actions;
+export const {
+  upTotal,
+  downTotal,
+  clearCart,
+  deleteFavorite,
+  addFavorite,
+  changeFilter,
+} = shopSlice.actions;
 export const shopReducer = shopSlice.reducer;

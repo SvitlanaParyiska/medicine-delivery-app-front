@@ -4,6 +4,7 @@ import DrugsList from '../../components/DrugsList';
 import { GridBox } from './HomePage.styled';
 import { useDispatch } from 'react-redux';
 import { getShopsList } from '../../redux/shopsOperations';
+import DrugsFilter from 'components/DrugsFilter';
 
 function HomePage() {
   const dispatch = useDispatch();
@@ -14,10 +15,13 @@ function HomePage() {
 
   return (
     <main>
-      <GridBox className="container ">
-        <Aside />
-        <DrugsList />
-      </GridBox>
+      <div className="container ">
+        <DrugsFilter />
+        <GridBox>
+          <Aside />
+          <DrugsList />
+        </GridBox>
+      </div>
     </main>
   );
 }

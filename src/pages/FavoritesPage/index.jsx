@@ -10,6 +10,9 @@ function FavoritesPage() {
   return (
     <main>
       <div className="container">
+        <h1 style={{ fontSize: '26px', marginBottom: '20px' }}>
+          Your list of favorites:
+        </h1>
         <ul style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
           {favoritesArray.length > 0 ? (
             favoritesArray.map(item => <DrugsItem drug={item} key={nanoid()} />)

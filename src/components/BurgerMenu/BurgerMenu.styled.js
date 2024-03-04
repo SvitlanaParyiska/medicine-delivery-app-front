@@ -73,9 +73,9 @@ export const BurgerMenuNavLinkStyled = styled(NavLink)`
   font-weight: 400;
   line-height: 1.43;
   color: #fff;
-  padding: 10px 27px;
+  padding: 10px 10px;
   border-radius: 12px;
-  font-size: 18px;
+  font-size: 16px;
   transition: border-color var(--transition);
 
   &:hover,
@@ -90,5 +90,6 @@ export const BurgerMenuNavLinkStyled = styled(NavLink)`
 
   @media screen and (min-width: 768px) {
     font-size: 20px;
+    padding: 10px 27px;
   }
 `;

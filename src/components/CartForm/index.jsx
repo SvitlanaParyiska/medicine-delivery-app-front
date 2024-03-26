@@ -28,6 +28,13 @@ function CartForm() {
   }, [listOfCart]);
 
   const handleSubmit = async e => {
+    if (total === 0) {
+      Notiflix.Notify.failure('Add drug to your shopping cart!', {
+        timeout: 2000,
+      });
+      e.preventDefault();
+      return;
+    }
     e.preventDefault();
     const { name, email, phone, address } = e.target.elements;
 
@@ -128,6 +135,7 @@ function CartForm() {
       <ClearButton
         type="button"
         className="btn btn-danger"
+        disabled={total ? false : true}
         onClick={clearTotalCart}
       >
         Clear cart
